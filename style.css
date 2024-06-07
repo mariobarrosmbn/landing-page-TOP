@@ -2,18 +2,27 @@ html {
     font-family: "Roboto", "Helvetica", sans-serif;
 }
 
+body {
+    margin: 0%;
+}
+
+.section {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
 .top {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
-    padding: 0 48px 0 48px;
+    padding-bottom: 84px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 48px;
+    padding-bottom: 84px;
 }
 
 .logo {
@@ -37,13 +46,14 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 40px;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
 }
 
 .main {
@@ -56,8 +66,9 @@ button {
     background-color: #3882f6;
     color: whitesmoke;
     font-weight: 700;
-    padding: 5px;
-    border-radius: 10%;
+    font-size: medium;
+    padding: 8px 20px;
+    border-radius: 20px;
 }
 
 .secondary {
@@ -65,7 +76,105 @@ button {
     color: #e5e7eb;
 }
 
+.placeholder {
+    width: 100%;
+}
 
+.placeholder img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
 
+.second {
+    padding: 48px 30% 72px 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
 
+.info {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
 
+.panels {
+    display: flex;
+    gap: 24px;
+}
+
+.panels.panel {
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.panel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.third.section {
+    padding: 72px 30% 72px 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    background-color: #e5e7eb;
+}
+
+.quotation {
+    text-align: left;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.author {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.fourth {
+    padding: 72px 20% 72px 20%;
+
+}
+
+.blue-box {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #e5e7eb;
+}
+
+.action {
+    font-weight: 900;
+}
+
+.signup {
+    font-weight: 500;
+}
+
+.blue-box button {
+    border-color: #f9faf8;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 30px;
+}
