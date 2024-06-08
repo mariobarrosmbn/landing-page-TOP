@@ -11,5 +11,3 @@ A special Thank You to all the people at TOP!
 
 
 #############
-
-Photo by <a href="https://unsplash.com/@cestmoisheedy?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Sarah Sheedy</a> on <a href="https://unsplash.com/photos/a-plane-flying-in-the-sky-at-sunset-G_JSW37ou8M?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
