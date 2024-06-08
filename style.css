@@ -103,6 +103,7 @@ button {
 
 .panels {
     display: flex;
+    justify-content: space-between;
     gap: 24px;
 }
 
@@ -113,6 +114,7 @@ button {
     justify-content: baseline;
     align-items: center;
     text-align: center;
+    flex: 0
 }
 
 .panel-img {
