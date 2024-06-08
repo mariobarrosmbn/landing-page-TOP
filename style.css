@@ -182,3 +182,98 @@ button {
     text-align: center;
     padding: 30px;
 }
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .section {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero .container {
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero .placeholder {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .panels {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .panel {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        font-size: 32px;
+    }
+
+    .secondary {
+        font-size: 16px;
+    }
+
+    .info {
+        font-size: 24px;
+    }
+
+    .quotation {
+        font-size: 24px;
+    }
+
+    .author {
+        font-size: 18px;
+    }
+
+    .blue-box {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .blue-box .text {
+        align-items: center;
+    }
+
+    .blue-box button {
+        width: 100%;
+    }
+
+    .panel {
+        width: 100%;
+        flex: 1 1 100%;
+    }
+
+    .header {
+        align-items: center;
+    }
+
+    ul {
+        align-items: center;
+        gap: 15px;
+    }
+}
